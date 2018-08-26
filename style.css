@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    background-image: url(img/music-instruments-2887457_1280.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+.flex-container {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    box-sizing: border-box;
+    background: none;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    border: 1px solid #000000;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
+     -webkit-box-shadow:    0 8px 0 #808080, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #808080, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #808080, 0 15px 20px rgba(0, 0, 0, .35);
+}
+
+.klick {
+    -webkit-box-shadow: 0 4px 0 #808080; 
+    -moz-box-shadow: 0 4px 0 #808080;
+    box-shadow: 0 4px 0 #808080;
+    transform: translateY(4px);
+}
+
+.letter {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
